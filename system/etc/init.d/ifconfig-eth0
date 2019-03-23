@@ -5,7 +5,7 @@ echo -n Try to bring eth0 interface up......>/dev/ttySAC2
 if [ -f /etc/eth0-setting ] ; then
         source /etc/eth0-setting
 
-        if grep -q "^/dev/root / nfs " /etc/mtab ; then
+        if grep -q nfs /proc/mounts; then
                 echo -n NFS root ... > /dev/ttySAC2
         else
                 ifconfig eth0 down

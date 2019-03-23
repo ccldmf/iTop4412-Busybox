@@ -13,7 +13,6 @@ old_e2fsrogs/
 old_e2fsprogs/
 scripts/
 include/
-Kbuild
 *.links
 busybox*
 *.swp
