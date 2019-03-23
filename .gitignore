@@ -1,0 +1,6 @@
+*.log
+*.[oa]
+!lib.a
+*.depend
+*.map
+*.lds.debug
